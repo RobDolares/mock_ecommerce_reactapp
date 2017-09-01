@@ -1,0 +1,42 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+nav .navNarrow i {
+
+			float: left;
+			cursor: pointer;
+			color: #999;
+		}
+
+.navWide {
+  display: none;
+}
+
+.navNarrow .narrowLinks {
+  display:none;
+}
+
+.navNarrow .narrowLinks li {
+	text-decoration: none;
+	display: block;
+	float: left;
+	clear: left;
+	padding: 0.5em 0;
+}
+
+@media (min-width:480px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
