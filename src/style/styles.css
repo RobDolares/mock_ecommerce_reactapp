@@ -1,0 +1,188 @@
+
+/***** Globals *****/
+
+.pageTitle {
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/***** NavBar *****/
+
+#navContainer {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.navbar {
+  margin:0;
+  border-radius: 0;
+}
+
+nav .navNarrow i {
+  width: 100%;
+  margin: auto;
+  padding:10px;
+	text-align: center;
+	cursor: pointer;
+	color: #999;
+}
+
+.navWide {
+  display: none;
+}
+
+.navNarrow .narrowLinks {
+  display:none;
+}
+
+.navNarrow .narrowLinks li {
+
+  text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 0.5em 0;
+}
+
+li span {
+  font-size: 1.6rem;
+}
+
+@media (min-width:768px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+
+/***** Footer *****/
+
+
+/***** Home *****/
+
+#homeHeroContainer {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../images/hero-bg.jpg');
+  height: 100vh;
+  margin-top: -50px;
+}
+
+#homeTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#homeTitle h1 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 50vw;
+}
+
+#homeTitle h2 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 8vw;
+}
+
+#homeTitle h2:nth-child(3) {
+  letter-spacing: 7px;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+#homeIntro {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin:20px;
+}
+
+#homeIntro p {
+  font-size: 1.4em;
+}
+#homeIntro p:nth-child(1)::first-letter {
+  font-size: 200%;
+}
+
+/***** About *****/
+
+
+
+/***** Product *****/
+
+#prodHeroContainer {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../images/prod_hero.jpg');
+  height: 100vh;
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#prodHeroContainer h1 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 8vw;
+}
+
+#catContainer {
+  margin: 10px auto 50px auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+}
+
+#catContainer h3 {
+  font-size: 4em;
+  margin: 5px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin:5px;
+}
+
+.dropdown.open {
+  text-align: center;
+  background-color: rgba(244,244,244,0.9);
+}
+
+.dropdown-menu {
+  text-align: center;
+  width: 90%;
+  left:50%;
+  margin-left:-45%;
+}
+
+.open>.dropdown-menu {
+margin-top:-50px;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin: 10px 20px;
+}
