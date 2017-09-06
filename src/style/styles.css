@@ -230,6 +230,24 @@ margin-top:-50px;
   width: 150px;
 }
 
+/***** Image edits *****/
+
 #waistpackItem img {
   height: 300px;
+}
+
+.tentImg {
+  height: 180px;
+}
+
+.hammockImg {
+  height: 180px;
+}
+
+.shelterOtherImg {
+  height: 180px;
+}
+
+.sleepOtherImg {
+  height: 180px;
 }

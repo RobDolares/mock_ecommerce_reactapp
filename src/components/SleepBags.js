@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import packdata from '../data/packdata.js';
+import sleepdata from '../data/sleepdata.js';
 
-export default class Backpacks extends Component {
+export default class SleepBags extends Component {
   render() {
-    let backpacks = packdata.map((backpack, id) => {
-      if (backpack.type === 'backpack') {
+    let sleepingbag = sleepdata.map((sleepingbag, id) => {
+      if (sleepingbag.type === 'sleepingbag') {
         return (
           <div className="listItem" key={id}>
-            <img src={backpack.img} alt={backpack.model}/>
+            <img src={sleepingbag.img} alt={sleepingbag.model}/>
             <div className="itemInfo">
-              <span><strong>{backpack.brand}</strong></span>
-              <span>{backpack.model}</span>
-              <span>{backpack.price}</span>
+              <span><strong>{sleepingbag.brand}</strong></span>
+              <span>{sleepingbag.model}</span>
+              <span>{sleepingbag.price}</span>
             </div>
             <div className="buyBtns">
               <button className="btn btn-md">Add to Cart</button>
@@ -25,8 +25,8 @@ export default class Backpacks extends Component {
 
     return (
       <div className="itemsContainer">
-        {backpacks}
+        {sleepingbag}
       </div>
-    );
-  };
+    )
+  }
 }

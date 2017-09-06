@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import packdata from '../data/packdata.js';
+import shelterdata from '../data/shelterdata.js';
 
-export default class Backpacks extends Component {
+export default class Tents extends Component {
   render() {
-    let backpacks = packdata.map((backpack, id) => {
-      if (backpack.type === 'backpack') {
+    let tents = shelterdata.map((tent, id) => {
+      if (tent.type === 'tent') {
         return (
           <div className="listItem" key={id}>
-            <img src={backpack.img} alt={backpack.model}/>
+            <img className="tentImg" src={tent.img} alt={tent.model}/>
             <div className="itemInfo">
-              <span><strong>{backpack.brand}</strong></span>
-              <span>{backpack.model}</span>
-              <span>{backpack.price}</span>
+              <span><strong>{tent.brand}</strong></span>
+              <span>{tent.model}</span>
+              <span>{tent.price}</span>
             </div>
             <div className="buyBtns">
               <button className="btn btn-md">Add to Cart</button>
@@ -25,8 +25,8 @@ export default class Backpacks extends Component {
 
     return (
       <div className="itemsContainer">
-        {backpacks}
+        {tents}
       </div>
-    );
-  };
+    )
+  }
 }

@@ -26,8 +26,8 @@ return(
         <img src={tent_01} alt=""/>
       </li>
       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><NavLink className="dropdown-item" to="/products/shelter/tent">Tents</NavLink></li>
-        <li><NavLink className="dropdown-item" to="/products/shelter/hammock">Hammocks</NavLink></li>
+        <li><NavLink className="dropdown-item" to="/products/shelter/tents">Tents</NavLink></li>
+        <li><NavLink className="dropdown-item" to="/products/shelter/hammocks">Hammocks</NavLink></li>
         <li><NavLink className="dropdown-item" to="/products/shelter/other">Other</NavLink></li>
       </ul>
     </div>
@@ -37,8 +37,8 @@ return(
         <img src={sleepingbag} alt=""/>
       </li>
       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><NavLink className="dropdown-item" to="/products/sleep/bags">Sleeping Bags</NavLink></li>
-        <li><NavLink className="dropdown-item" to="/products/sleep/pads">Sleeping Pads</NavLink></li>
+        <li><NavLink className="dropdown-item" to="/products/sleep/sleeping-bags">Sleeping Bags</NavLink></li>
+        <li><NavLink className="dropdown-item" to="/products/sleep/sleeping-pads">Sleeping Pads</NavLink></li>
         <li><NavLink className="dropdown-item" to="/products/sleep/other">Other</NavLink></li>
       </ul>
     </div>

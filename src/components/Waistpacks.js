@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import packdata from '../data/packdata.js';
 
 export default class Waistpacks extends Component {
-  render(){
-    let waistpacks = packdata.map((waistpack, id)=>{
+  render() {
+    let waistpacks = packdata.map((waistpack, id) => {
       if (waistpack.type === 'waistpack') {
-        return(
+        return (
           <div id="waistpackItem" className="listItem" key={id}>
-            <img src={waistpack.img} />
+            <img src={waistpack.img} alt={waistpack.model}/>
             <div className="itemInfo">
-              <span><strong>{waistpack.brand}</strong></span>
+              <span>
+                <strong>{waistpack.brand}</strong>
+              </span>
               <span>{waistpack.model}</span>
               <span>{waistpack.price}</span>
             </div>
@@ -17,18 +19,16 @@ export default class Waistpacks extends Component {
               <button className="btn btn-md">Add to Cart</button>
               <button className="btn btn-sm">Add to WishList</button>
             </div>
-        </div>
-      )
-    }
+          </div>
+        )
+      }
 
-  })
+    })
 
-  return(
-    <div className="itemsContainer">
-      {waistpacks}
-    </div>
-  )
-
-
-  }
+    return (
+      <div className="itemsContainer">
+        {waistpacks}
+      </div>
+    );
+  };
 }
