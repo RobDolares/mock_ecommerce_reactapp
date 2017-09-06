@@ -1,5 +1,9 @@
 
 /***** Globals *****/
+button{
+  outline: none !important;
+  box-shadow: 1px 1px 1px #333;
+}
 
 .pageTitle {
   text-align: center;
@@ -183,6 +187,49 @@ margin-top:-50px;
 .itemsContainer {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 10px 20px;
+  align-items: center;
+}
+
+/***** Products *****/
+
+.itemInfo {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.itemInfo span:nth-child(1) {
+  font-size: 1.1em;
+}
+
+.itemInfo span:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.itemInfo span:nth-child(3) {
+  font-size: 1em;
+}
+
+.listItem {
+  text-align: center;
+  flex:  1 0 28%;
+  margin-bottom:40px;
+}
+.buyBtns {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buyBtns button {
+  margin: 5px;
+  width: 150px;
+}
+
+#waistpackItem img {
+  height: 300px;
 }

@@ -15,12 +15,8 @@ export default class Products extends Component {
           <div>
             <ShopNav/>
           </div>
-
           <div>
             {this.props.children}
-          </div>
-          <div>
-
           </div>
         </main>
       </div>

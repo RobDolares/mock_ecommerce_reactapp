@@ -14,7 +14,7 @@ export default class Footer extends Component {
               </NavLink>
             </li>
             <li>
-              <a href="https://github.com/RobDolares" target="_blank" ><span>&copy; 2017 Robert Howington</span></a>
+              <a  href="https://github.com/RobDolares" rel="noopener noreferrer" target="_blank" ><span>&copy; 2017 Robert Howington</span></a>
             </li>
           </ul>
         </nav>
