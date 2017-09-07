@@ -1,4 +1,5 @@
 import React from 'react';
+import compass from '../images/compass.jpg';
 
 const Home = (props)=> {
 
@@ -13,16 +14,16 @@ const Home = (props)=> {
         </div>
         <main>
           <div id="homeIntro">
-
+            <h1>There is nothing like the <strong>great outdoors</strong>...</h1>
             <div className="col-sm-6">
-              <h2>Get Outdoors</h2>
-              <p>There is nothing like the <em>great outdoors</em>... so when we aren't pushing paper or serving drinks to local hipsters at our day jobs, we're out there - and we want you to be out there too.</p>
 
-              <p>Have a look around our site and you'll find everything you need to get you outfitted for your next camping trip, day hike, or family night in the backyard under the stars.</p>
+              <p>So when we aren't pushing paper or serving drinks to local hipsters at our day jobs, we're out there - and we want you to be out there too.</p>
+
+              <p>Have a look around our site and get outfitted for your next camping trip, day hike, or family night in the backyard under the stars.</p>
 
               <p>We love getting outside just as much as you do, so go ahead and look at our wares - Buy something - or don't.  Then get off your computer or other device and go outside!</p>
             </div>
-            <img className="col-sm-6" src="" alt=""/>
+            <img src=""alt="" />
           </div>
           <div>
 

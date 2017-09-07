@@ -8,7 +8,7 @@ export default class Products extends Component {
     return (
       <div>
         <div id="prodHeroContainer">
-          <h1>Products</h1>
+          <h1>products</h1>
         </div>
 
         <main>

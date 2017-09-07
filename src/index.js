@@ -30,18 +30,15 @@ import SleepOther from './components/SleepOther'
       <Route path="/contact" component={Contact}/>
       <Route path="/about" component={About}/>
       <Products>
-        <Switch>
           <Route path="/products/packs/backpacks" component={Backpacks}/>
           <Route path="/products/packs/daypacks" component={Daypacks}/>
           <Route path="/products/packs/waistpacks" component={Waistpacks}/>
-
           <Route path="/products/shelter/tents" component={Tents}/>
           <Route path="/products/shelter/hammocks" component={Hammocks}/>
           <Route path="/products/shelter/other" component={ShelterOther}/>
           <Route path="/products/sleep/sleeping-bags" component={SleepBags}/>
           <Route path="/products/sleep/sleeping-pads" component={SleepPads}/>
           <Route path="/products/sleep/other" component={SleepOther}/>
-        </Switch>
       </Products>
     </Switch>
   </BaseLayout>

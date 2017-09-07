@@ -29,21 +29,21 @@ export default class NavBar extends Component {
                   <img style={navimgStyles} src={sxe_mini} alt="sxe mini logo" />
                 </li>
                 <li>
-                  <NavLink to="/"><span>Home</span></NavLink>
+                  <NavLink to="/"><span>HOME</span></NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about"><span>About</span></NavLink>
+                  <NavLink to="/about"><span>ABOUT</span></NavLink>
                 </li>
                 <li>
-                  <NavLink to="/products"><span>Products</span></NavLink>
+                  <NavLink to="/products"><span>PRODUCTS</span></NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact"><span>Contact</span></NavLink>
+                  <NavLink to="/contact"><span>CONTACT</span></NavLink>
                 </li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <NavLink to="/register"><span>Login / Sign Up</span></NavLink>
+                  <NavLink to="/register"><span>LOGIN / SIGN UP</span></NavLink>
                 </li>
               </ul>
             </div>
@@ -53,19 +53,19 @@ export default class NavBar extends Component {
             <div className="narrowLinks ">
               <ul id="navNarList" className="nav navbar-nav">
                 <li onClick={this.burgerToggle}>
-                  <NavLink to="/home"><span>Home</span></NavLink>
+                  <NavLink to="/home"><span>HOME</span></NavLink>
                 </li>
                 <li onClick={this.burgerToggle}>
-                  <NavLink to="/about"><span>About</span></NavLink>
+                  <NavLink to="/about"><span>ABOUT</span></NavLink>
                 </li>
                 <li onClick={this.burgerToggle}>
-                  <NavLink to="/products"><span>Products</span></NavLink>
+                  <NavLink to="/products"><span>PRODUCTS</span></NavLink>
                 </li>
                 <li onClick={this.burgerToggle}>
-                  <NavLink to="/contact"><span>Contact</span></NavLink>
+                  <NavLink to="/contact"><span>CONTACT</span></NavLink>
                 </li>
                 <li>
-                  <NavLink to="/register"><span>Login / Sign Up</span></NavLink>
+                  <NavLink to="/register"><span>LOGIN / SIGN UP</span></NavLink>
                 </li>
               </ul>
             </div>
