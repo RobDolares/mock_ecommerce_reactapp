@@ -2,7 +2,7 @@
 
 ### Create an Mock E-commerce site with following requirements:
 
-* Your app should contain at least seven different components.
+* Contain at least seven different components.
 * The makeup and style of them are up to you but should reflect at least 3 different categories of the e-store.
 * About page
 * Contact form.
@@ -15,4 +15,5 @@ The 3 different category components should have the following for each item(at l
 
 Store the data in a separate data folder and import it into the proper component.
 
+### This was the mockup for assignment - NOT my work:
 ![Mock Up](/public/mockup-ecommerce.gif)
