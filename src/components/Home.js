@@ -21,7 +21,7 @@ const Home = (props)=> {
 
               <p>Have a look around our site and get outfitted for your next camping trip, day hike, or family night in the backyard under the stars.</p>
 
-              <p>We love getting outside just as much as you do, so go ahead and look at our wares - Buy something - or don't.  Then get off your computer or other device and go outside!</p>
+              <p>We love getting outside just as much as you do, so go ahead and look at our wares - Buy something - or don't.  Then get off your computer and go outside!</p>
             </div>
             <img src=""alt="" />
           </div>

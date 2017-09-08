@@ -3,23 +3,25 @@ import React from 'react';
 const Contact = (props) => {
 
 const MY_API = 'AIzaSyCE7qI1e7EGzjgzSwlQdZg4z-zMCAUNQRo';
-const _url = `https://www.google.com/maps/embed/v1/place?key=${MY_API}&q=35.7796,-78.6382`
+const _url = `https://www.google.com/maps/embed/v1/place?key=${MY_API}&q=35.7777,-78.639`
 
   return (
     <div>
-      <div className="pageTitle">
+      <div id="contactTitle">
         <h1>Explore with us!</h1>
       </div>
 
-      <div id="contactContainer">
+      <main id="contactContainer">
+
         <div id="mapContainer">
           <h3>Stop by our basecamp:</h3>
-          <iframe frameBorder="0" style={{ width: "400", height: "400"}} src={_url}>
+          <iframe frameBorder="0" style={{ width: "350", height: "350"}} src={_url}>
           </iframe>
         </div>
 
         <div id="formContainer">
           <h3>Contact</h3>
+
           <form>
             <div className="form-group">
               <label htmlFor="name">Your name:</label><br/>
@@ -33,11 +35,12 @@ const _url = `https://www.google.com/maps/embed/v1/place?key=${MY_API}&q=35.7796
               <label htmlFor="message">Your message:</label><br/>
               <textarea className="form-control" id="message" name="message" rows="4" ></textarea><br/>
             </div>
-            <button id="submitButton" type="submit">Submit</button>
-
+            <button className="btn btn-lg submitButton" type="submit">Submit</button>
           </form>
+
         </div>
-      </div>
+
+      </main>
 
     </div>
   )

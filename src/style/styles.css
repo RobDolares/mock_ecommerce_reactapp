@@ -14,15 +14,6 @@ button{
   box-shadow: 1px 1px 1px #333;
 }
 
-.pageTitle {
-  text-align: center;
-}
-
-.mainContainer {
-  display: flex;
-  justify-content: center;
-}
-
 /***** NavBar *****/
 
 #navContainer {
@@ -126,7 +117,7 @@ main {
 
 #homeIntro p {
   font-size: 1.6em;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 #homeIntro p:nth-child(1) {
@@ -134,6 +125,7 @@ main {
 }
 
 #homeIntro h1 {
+  font-size: 3em;
   flex: 1 0 100%;
   text-align: center;
 }
@@ -159,7 +151,7 @@ main {
 }
 
 #aboutHeroContainer h1{
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 14vw;
   margin-top: 80px;
 }
@@ -251,6 +243,10 @@ main {
 #catContainer h3 {
   font-size: 4em;
   margin: 5px;
+}
+
+#catContainer img {
+  height: 220px;
 }
 
 .dropdown {
@@ -346,6 +342,12 @@ margin-top:-50px;
 
 /***** Contact *****/
 
+#contactTitle h1 {
+  text-align: center;
+  font-size: 3.8em;
+  margin: 30px 0px -15px 0px;
+}
+
 #contactContainer {
   display: flex;
   flex-flow: row wrap;
@@ -355,6 +357,16 @@ margin-top:-50px;
 
 #mapContainer {
   text-align: center;
+}
+
+iframe{
+  box-shadow: 2px 2px 5px #444;
+  margin: 5%;
+}
+
+.place-card {
+  display: none !important;
+  position: relative;
 }
 
 #contactContainer>div {
@@ -381,6 +393,6 @@ form {
   margin:0px;
 }
 
-#submitButton {
+.submitButton {
   margin-top:70px;
 }

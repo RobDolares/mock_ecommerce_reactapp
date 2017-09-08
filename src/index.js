@@ -27,6 +27,7 @@ import SleepOther from './components/SleepOther'
   <BaseLayout>
     <Switch>
       <Route exact path="/" component={Home}/>
+      <Route path ="/mock_ecommerce_reactapp" component={Home} />
       <Route path="/contact" component={Contact}/>
       <Route path="/about" component={About}/>
       <Products>
