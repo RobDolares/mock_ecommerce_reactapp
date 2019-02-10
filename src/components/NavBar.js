@@ -53,7 +53,7 @@ export default class NavBar extends Component {
             <div className="narrowLinks ">
               <ul id="navNarList" className="nav navbar-nav">
                 <li onClick={this.burgerToggle}>
-                  <NavLink to="/home"><span>HOME</span></NavLink>
+                  <NavLink to="/"><span>HOME</span></NavLink>
                 </li>
                 <li onClick={this.burgerToggle}>
                   <NavLink to="/about"><span>ABOUT</span></NavLink>

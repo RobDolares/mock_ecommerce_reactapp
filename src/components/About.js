@@ -16,14 +16,17 @@ const About = (props) => {
             <div>
               <img src={male01} alt="" />
               <h4>Donald Ramsey</h4>
+              <p>Having grown up on the ranges of central Montana, Donald has always lived and breathed the outdoors.  As a kid, he spent so much time outside he would wear through a pair of shoes every month.  Though his mom didn't appreciate it then, she sure is proud of him now.  Hey Mrs. Ramsey ;)</p>
             </div>
             <div>
               <img src={female01} alt="" />
               <h4>Stephie Larsson</h4>
+              <p>Steph hails from Stockholm, and after reading her blog about yoyoing the entire Kings Trail (Kungsleden), Donald got her onboard with sXe.  She brings a great zeal for adventure to the team and makes sure our customers our happy and always getting fresh content.</p>
             </div>
             <div>
               <img src={male02} alt="" />
               <h4>Webster Frost</h4>
+              <p>As staff photographer and often on the road, we don't see much of Mr. Frost.  We don't mind though, cause when he fills our dropbox with his latest shot from who knows where, we don't ask questions.  He's that good. </p>
             </div>
           </div>
 
